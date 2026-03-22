@@ -111,7 +111,7 @@ RISC-V CPU 领域近 10 年的全球发文趋势与区域研究特征；
 
 
 
-## Lesson 2 – 检索式设计
+## Lesson 2检索式设计
 
 完成 RISC-V CPU 研究方向的检索式设计。
 
@@ -127,8 +127,8 @@ RISC-V CPU 领域近 10 年的全球发文趋势与区域研究特征；
 **变更日志**: [`reports/query_changelog.md`](reports/query_changelog.md) —— 记录了检索式从 v0.1 到当前版本的优化轨迹及修订原因 。
 
 
-### Lesson2：检索式设计与优化
-
+### Lesson2课后日志：检索式设计与优化
+在lesson3的完成过程中， 小组讨论发现目前的检索式所检索出的内容样本太少，故优化了布尔逻辑
 本项目针对 RISC-V CPU 研究方向设计文献检索式，并进行了优化。
 
 主要工作：
@@ -137,9 +137,10 @@ RISC-V CPU 领域近 10 年的全球发文趋势与区域研究特征；
 - 在 query.yaml 中配置检索式
 - 在 query_changelog.md 中记录检索策略优化过程
 
-Lesson 3 工作内容总结
-完成文献检索与数据获取
+##Lesson 3完成文献检索与数据获取
+
 使用优化后的检索式在 Web of Science 进行文献检索
+
 成功导出 RIS 格式原始数据，文件名为 wos_riscv_2015-2026_raw.ris
 完成 GitHub 仓库文件管理
 将原始 RIS 文件上传至仓库 data/raw/ 目录
@@ -150,9 +151,11 @@ Lesson 3 工作内容总结
 检查关键字段缺失情况（标题、作者、DOI、年份、期刊、参考文献）
 生成去重后的干净数据集并保存为 CSV 格式
 编写项目文档（3 个必备文件）
+
 完成 data/README.md：说明数据来源、检索式、目录结构
 完成 data/field_dictionary.md：定义 RIS 各字段含义
 完成 reports/data_quality.md：记录数据统计结果与质量评估
+
 完成仓库规范化整理
 将所有数据、脚本、文档上传至 GitHub
 保证项目结构清晰、可复现、符合课程要求
