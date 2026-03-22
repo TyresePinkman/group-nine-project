@@ -20,31 +20,30 @@ query:
   object:
     - "RISC-V"
     - "RISC V"
-    - "RISC-V processor"
-    - "RISC-V CPU"
-    - "RISC-V architecture"
-    - "RISC-V core"
+    - "RISC-V ISA"
+    - "RV32"
+    - "RV64"
 
   method:
-    - "processor design"
-    - "cpu architecture"
+    - "processor"
+    - "cpu"
+    - "core"
     - "microarchitecture"
     - "instruction set architecture"
-    - "processor architecture"
-    - "hardware architecture"
 
   context:
     - "computer architecture"
-    - "embedded system"
     - "system on chip"
     - "SoC"
+    - "embedded system"
     - "hardware design"
     - "chip design"
+    - "accelerator"
 
 exclusion:
   - "quantum computing"
   - "biological neural network"
 
 notes:
-  description: "Query configuration for bibliometric analysis of RISC-V CPU research."
+  description: "Expanded query for bibliometric analysis of RISC-V architecture and processors."
   database: "Web of Science / Scopus"
